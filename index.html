@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>0328</title>
+    <style>
+        .fc{
+            color: red;
+        }
+    </style>
 </head>
 <body>
-<span style="color: red"</span>
 <h2>Greetings</h2>
 <div class="container">
     <div class="inner">Hello</div>
@@ -15,7 +19,7 @@
 <script type="text/javascript">
     $(function () {
         console.log("hi,jquery!!")
-        $( ".inner" ).append( "<p>Test</p>" );
+        $( ".inner" ).append( "<p class='fc'>Test</p>");
     });
 </script>
 </body>
